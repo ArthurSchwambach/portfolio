@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arthur Schwambach</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -13,7 +15,6 @@
       </div>
     </header>
 
-    <!-- Seção para dar o filtro de blur no background -->
     <main>
       <section>
         <div id="backgroundBlur">
@@ -21,7 +22,6 @@
         </div>
       </section>
 
-      <!-- Seção da Foto de Perfil e Habilidades -->
       <section>
         <div id="perfilArthur">
           <img src="./Imagens/artu.png" alt="Foto de Arthur" />
@@ -31,29 +31,30 @@
         </div>
       </section>
 
-      <!-- Aba de Âncoragens -->
       <section>
         <div id="ancoragens">
           <a href="#projetos">Projetos</a>
-          <a href="">|</a>
+          <a href="#">|</a>
           <a href="#sobreMim">Sobre Mim</a>
-          <a href="">|</a>
+          <a href="#">|</a>
           <a href="#cont">Contato</a>
         </div>
       </section>
 
-      <!-- Main -->
       <section id="projetos">
-        <div id="divProjetos">
+        <div id="divProjetos" class="container">
           <h1 id="proj">Projetos</h1>
+
           <!-- Somnia: Onyrium -->
           <h1 id="Somnia">Somnia: Onyrium</h1>
           <hr />
-          <a href="https://artiestudios.itch.io/somnia"
-            ><img
+          <a href="https://artiestudios.itch.io/somnia">
+            <img
               src="./Imagens/somnia.png"
-              alt="Foto de Capa de Somnia: Onyrium."
-          /></a>
+              alt="Foto de Capa de Somnia: Onyrium"
+            />
+          </a>
+          <br />
           <p>
             Somnia: Onyrium é um jogo de suspense em que interpretamos Aela, uma
             garota de olhos roxos que busca encontrar o motivo do
@@ -64,9 +65,10 @@
           <div id="Insomnia"></div>
           <h1>Insomnia</h1>
           <hr />
-          <a href="https://gamejolt.com/games/insomnia/694784"
-            ><img src="./Imagens/insomnia.png" alt="Foto de Capa de Insomnia."
-          /></a>
+          <a href="https://gamejolt.com/games/insomnia/694784">
+            <img src="./Imagens/insomnia.png" alt="Foto de Capa de Insomnia" />
+          </a>
+          <br />
           <p>
             Insomnia é um jogo que se passa em uma história alternativa de
             Somnia: Onyrium.
@@ -80,15 +82,17 @@
           <div id="Lunari"></div>
           <h1>Lunari</h1>
           <hr />
-          <a href="https://artiestudios.itch.io/lunari"
-            ><img src="./Imagens/lunari1.png" alt="Foto de Capa de Lunari."
-          /></a>
+          <a href="https://artiestudios.itch.io/lunari">
+            <img src="./Imagens/lunari1.png" alt="Foto de Capa de Lunari" />
+          </a>
+          <br />
           <p>Lunari é um jogo de suspense que se passa em uma nave espacial.</p>
           <p>
             Nele interpretamos Naomi, uma cientista que tenta desvendar os
             mistérios que assolam a nave Lunari A.
           </p>
-          <hr id="divisao">
+          <br />
+          <hr />
 
           <!-- Sobre Mim -->
           <section id="sobreMim">
@@ -98,32 +102,40 @@
               <p>
                 Sou um criador de jogos que iniciou fazendo pequenos projetos em
                 RPG Maker. Atualmente, além do RPG Maker, utilizo ferramentas
-                como GameMaker e Unity.</p>
-               <p>Meu primeiro jogo participou de um concurso e recebeu o prêmio de "Melhor Narrativa e Escrita". Com isso, fui convidado para ser roteirista de um jogo indie com uma equipe de desenvolvedores profissionais.</p>
-               <p>Enquanto faço projetos de roteirização, escrevo livros de ficção que variam dentre fantasia medieval sombria e fantasia sombria contemporânea.</p>
+                como GameMaker e Unity.
               </p>
-              <hr id="divisao">
+              <p>
+                Meu primeiro jogo participou de um concurso e recebeu o prêmio
+                de "Melhor Narrativa e Escrita". Com isso, fui convidado para
+                ser roteirista de um jogo indie com uma equipe de
+                desenvolvedores profissionais.
+              </p>
+              <p>
+                Enquanto faço projetos de roteirização, escrevo livros de ficção
+                que variam dentre fantasia medieval sombria e fantasia sombria
+                contemporânea.
+              </p>
+              <hr class="divisao" />
             </div>
           </section>
 
           <!-- Contato -->
           <section id="cont">
             <div>
-              <h1 id="sobreMim">Contato</h1>
-              <br>
-              <a href="https://www.instagram.com/art.schw/">Instagram</a>
-              <a href="">|</a>
-              <a href="https://www.linkedin.com/in/arthur-da-silva-schwambach-422a81289/">LinkedIn</a>
+              <h1 id="contato">Contato</h1>
+              <a href="https://www.instagram.com/art.schw">Instagram</a>
+              <a href="#">|</a>
+              <a
+                href="https://www.linkedin.com/in/arthur-da-silva-schwambach-422a81289"
+                >LinkedIn</a
+              >
               <p>Email: arthurschwambachass1@outlook.com</p>
-              <hr id="divisao">
-
+              <hr id="divisao" />
             </div>
           </section>
-
-          <!-- Footer -->
-          <footer>Desenvolvido por Arthur</footer>
         </div>
       </section>
     </main>
+    <footer>Desenvolvido por Arthur</footer>
   </body>
 </html>
